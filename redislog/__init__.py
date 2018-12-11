@@ -18,6 +18,6 @@ __version__ = (0, 0, 1)
 import logging
 from redislog.logger import RedisLogger
 
-logging.setLoggerClass(logger.RedisLogger)
+logging.setLoggerClass(RedisLogger)
 
 
